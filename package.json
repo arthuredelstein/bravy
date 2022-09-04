@@ -10,5 +10,8 @@
   "license": "MIT",
   "bin": {
     "bravy": "./bin/global.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
