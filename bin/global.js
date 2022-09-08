@@ -2,8 +2,8 @@
 
 const minimist = require('minimist');
 
-var override_library = require('../lib/override.js');
+const overrideLibrary = require('../lib/override.js');
 
 // Displays the text in the console
-const { both, _ : argumentList } = minimist(process.argv.slice(2));
-override_library.override(argumentList[0], { both });
+const { both, _: argumentList } = minimist(process.argv.slice(2));
+overrideLibrary.override(argumentList[0], { both });
