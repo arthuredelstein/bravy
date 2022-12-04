@@ -7,8 +7,8 @@ const flagLibrary = require('../lib/flag.js');
 
 // Displays the text in the console
 const { both, _: argumentList } = minimist(process.argv.slice(2));
-if (argumentList[0] === "override") {
+if (argumentList[0] === 'override') {
   overrideLibrary.override(argumentList[1], { both });
-} else if (argumentList[0] === "flag") {
+} else if (argumentList[0] === 'flag') {
   flagLibrary.flag(argumentList[1]);
 }
