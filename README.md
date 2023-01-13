@@ -2,7 +2,20 @@
 
 `bravy` is a tool for helping with some brave-core development tasks.
 
+## Installation
+
+```
+cd bravy
+npm install -g .
+```
+
 ## Usage
+
+First go to your `brave` directory.
+
+```
+cd brave-browser/src/brave
+```
 
 ### `chromium_src` overrides
 
