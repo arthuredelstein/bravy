@@ -12,6 +12,8 @@ bravy override third_party/blink/renderer/modules/eventsource/event_source.h
 bravy override third_party/blink/renderer/modules/eventsource/event_source.cc
 bravy override third_party/blink/renderer/modules/eventsource/event_source.cc --both
 ```
-### Feature flag template (adds code to several files)
+
+### Feature flag
+Create a template feature flag (adds code to several files)
 `bravy flag kHttpsByDefault`
 
